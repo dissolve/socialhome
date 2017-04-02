@@ -1,15 +1,16 @@
 @import "bower_components/bootstrap/scss/_variables.scss";
+@import "bower_components/bootstrap/scss/mixins/_breakpoints.scss";
 
 // Media query sizes, mainly for our grid
 $extraLargeDevice: 1680px;
 $largeDevice: 1200px;
 $mediumDevice: 800px;
 
-// BS versions
-$bsSmallDevice: 544px;
-$bsMediumDevice: 768px;
-$bsLargeDevice: 992px;
-$bsXLargeDevice: 1200px;
+//// BS versions
+//$bsSmallDevice: 544px;
+//$bsMediumDevice: 768px;
+//$bsLargeDevice: 992px;
+//$bsXLargeDevice: 1200px;
 
 // Alert colours
 $white: #fff;

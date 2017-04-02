@@ -1,6 +1,7 @@
 @import "variables";
 
-@media(min-width: $bsMediumDevice){
+@include media-breakpoint-up(md) {
+//@media(min-width: $bsMediumDevice){
   .markdownx {
     display: flex;
     .preview-panel {

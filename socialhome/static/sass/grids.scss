@@ -15,7 +15,8 @@
     @media all and (max-width: $mediumDevice) {
       font-size: medium;
     }
-    @media all and (max-width: $bsSmallDevice) {
+    @include media-breakpoint-down(sm) {
+    //@media all and (max-width: $bsSmallDevice) {
       font-size: large;
     }
 

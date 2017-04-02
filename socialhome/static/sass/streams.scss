@@ -11,21 +11,24 @@
   font-size: 1.5em;
 }
 
-@media (min-width: $bsMediumDevice) {
+//@media (min-width: $bsMediumDevice) {
+@include media-breakpoint-up(md) {
   #new-content-container {
     font-size: 1.4em;
     top: 38px;
   }
 }
 
-@media (min-width: $bsLargeDevice) {
+//@media (min-width: $bsLargeDevice) {
+@include media-breakpoint-up(lg) {
   #new-content-container {
     font-size: 1.2em;
     top: 39px;
   }
 }
 
-@media (min-width: $bsXLargeDevice) {
+@include media-breakpoint-up(xl) {
+//@media (min-width: $bsXLargeDevice) {
   #new-content-container {
     font-size: 1.0em;
     top: 40px;
